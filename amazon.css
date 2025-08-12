@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    background-color: rgb(252, 239, 225);
+}
 nav {
     background-color: rgb(22, 22, 22);
     color: white;
@@ -16,6 +18,8 @@ nav {
     margin-bottom: -10px;
     position: fixed;
     width: 100%;
+    height: 60px;
+    top: 0;
 
 }
 
@@ -23,12 +27,12 @@ nav {
     margin-left: -47px;
 }
 
-.l {
+.la {
     margin-left: -30px;
 }
 
 .logo {
-    height: 70px;
+    height: 60px;
     width: 150px;
     margin-left: -20px;
     background-color: transparent;
@@ -93,28 +97,229 @@ nav h2:hover {
     background-color: transparent;
     border: 1px solid white;
 }
-.sub-nav {
+.ul{
     width: 100%;
+    height: 40px;
+    margin-top: 60px;
     background-color: #222f3d;
     color: white;
-    /* padding: 10px 20px; */
-    display: flex;
-    justify-content: space-between;
+}
+.ul li{
+    list-style: none;
+    padding: 8px;
+    display: inline-block;
+    justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
-    margin-top: 90px;
-    position: absolute;
+
 }
-.sub-nav {
-    /* margin-right: 20px; */
-    cursor: pointer;
-}
-.box:hover {
+.ul li:hover{
     background-color: transparent;
+    cursor: pointer;
     border: 1px solid white;
 }
-/* .home-decor-image{
-    position: absolute;
-    bottom: 100px;
-    left: 20px;
-} */
+.fresh-select{
+    height: 13px;
+    width: 20px;
+    background-color: transparent;
+    color: white ;
+    border: none;
+}
+.prime-select{
+    height: 13px;
+    width: 20px;
+    background-color: transparent;
+    color: white ;
+    border: none;
+}
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(252, 239, 225);
+    margin-top: -50px;
+    
+}
+.box {
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    padding: 10px;
+    border:none;
+    
+}
+.a{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.b{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.c{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+.d{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+.e{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.f{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.g{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+.h{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+.i{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.j{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.k{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+.l{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+.m{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.n{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.o{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+.p{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+
+.shop-section-b {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(252, 239, 225);
+    margin-top: -50px;
+    margin-top: 20px;
+    
+}
+.q{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.r{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.s{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+.t{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+.u{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.v{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.w{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+.x{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+.y{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.z{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.aa{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+.ab{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+.ac{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.ad{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ae{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+.af{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
